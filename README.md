@@ -1,24 +1,16 @@
 # Trajectories for Tracking Moving Condition
 
 ## Introduction
-Implementation of the A* Search Algorithm to solve the Route Search problem. One particular search problem is especially relevant to self-driving cars: finding the best route from point A to point B. The application will implement a Google-maps style route planner. The full lesson and step by step explanation can be learned at [Udacity.com](https://classroom.udacity.com/nanodegrees/nd113/dashboard/overview).
-
-### The A* Search
-A* (pronounced "A-star") is a graph traversal and path search algorithm, which is often used in many fields of computer science due to its completeness, optimality, and optimal efficiency. One major practical drawback is its O(bᵈ) space complexity, as it stores all generated nodes in memory. Thus, in practical travel-routing systems, it is generally outperformed by algorithms which can pre-process the graph to attain better performance, as well as memory-bounded approaches; however, A* is still the best solution in many cases. (retrived from Wikipedia.com)
-
-Image retrived from Udacity.com
-
-![alt](https://github.com/jackyhuynh/Route-Planner/blob/main/src/picture/map.PNG)
+The trajectories for Tracking Moving Condition
 
 ## Technology
 - Python 
 - Object Oriented Design
 - Jupyter Notebook
 - Data Visualization
-- Machine Learning
-- AI
 - Localization
 - Data Structures
+- Algorithms
 
 ## Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
@@ -41,38 +33,12 @@ A step by step series of examples that tell you how to get a development envirom
 Explain how to run the automated tests for this system:
 - There is no download IDE need, all you need is download all the src to your machine and run it.
 - Using Jupiter Notebook
-- Navigate to the file Kahman_Filter_Implementation.ipynb
+- Navigate to the file .ipynb
 - hit:
 
 ```
 Ctrl + Enter
 ```
-- If this happen (most likely it is going to happen). I sucessful run this code in a virtual machine. However, when I download it to my computer and deploy it to GitHub, I experienced this issues.
-```
----------------------------------------------------------------------------
-ModuleNotFoundError                       Traceback (most recent call last)
-<ipython-input-8-10b645f07abd> in <module>
-      1 # Run this cell first!
-      2 
-----> 3 from helpers import Map, load_map_10, load_map_40, show_map
-      4 import math
-      5 
-
-~\python-workspace\Route_Planner\helpers.py in <module>
-      2 import networkx as nx
-      3 import pickle
-----> 4 import plotly.plotly as py
-      5 import random
-      6 from plotly.graph_objs import *
-
-ModuleNotFoundError: No module named 'plotly'
-```
-- Fixxed: If you are using Anaconda, open Anaconda Navigator and launch cmd prompt (cmd.exe) from there. Then run 'pip install plotly'.
-```
-pip install plotly
-```
-- If this not fix your issues, please do a search. Here is some good information: [GitHub](https://github.com/plotly/plotly.py/issues/1660) or [plotly](https://plotly.com/python/troubleshooting/)
-
 - The notebook will execute in Markdown form and include the visualization of the map.
 
 ![alt](https://github.com/jackyhuynh/Route-Planner/blob/main/src/picture/map.PNG)
