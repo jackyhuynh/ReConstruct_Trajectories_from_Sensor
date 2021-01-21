@@ -23,6 +23,22 @@ To calculate average speed ( V_avg ), you can use the following equation:
     V_avg = Δx/Δt
 where Δx means "change in position" and Δt means "change in time".
 
+#### Velocity
+- Velocity is the instantaneous rate of change of position
+- Velocity is the slope of the tangent line of position
+- Velocity is the derivative of position
+
+#### Differential Notation
+ f(t)=lim of Δt→0 * { (f(t+Δt)−f(t))/Δt }
+​This "dot" notation is one of two common ways of representing the derivative.
+
+Calculus was simultaneously invented by two people: Gottfried Wilhelm Liebniz and Isaac Newton.
+
+And each came up with his own notation for representing derivatives. The Wikipedia article on [Notation for Differentiation](https://en.wikipedia.org/wiki/Notation_for_differentiation) does a good job of explaining them thoroughly but I will summarize here.	  
+
+
+​	
+---
 ### 2. Accelerometers, Rate Gyros, and Integrals
 
 Every self driving car has at least one inertial measurement unit in it. These small sensors are able to measure acceleration in three directions as well as rotation rates around all three axes (pitch, roll, and yaw).
