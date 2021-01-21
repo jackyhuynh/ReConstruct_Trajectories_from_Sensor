@@ -4,14 +4,15 @@
 The trajectories for Tracking Moving Condition
 Project are divide into 4 parts:
 
-### Odometers, Speedometers, and Derivatives
+### 1. Odometers, Speedometers, and Derivatives
+
 Understanding motion means understanding quantities like position, velocity, and acceleration and how they relate to each other. And it turns out that calculus gives us two incredible tools for understanding these relationships: derivatives and integrals.
 
 In this lesson you will learn about the derivative and what it can tell us about motion. By the end of this lesson you will be able to take a car's odometery data (distance traveled) and use it to infer new knowledge about velocity and acceleration.
 
 <img src="https://github.com/jackyhuynh/Construct_Trajectories_from_Sensor/blob/main/images/odometer2.jpg" width="450" height="300" margin-left:auto margin-right:auto>
 
-### Accelerometers, Rate Gyros, and Integrals
+### 2. Accelerometers, Rate Gyros, and Integrals
 
 Every self driving car has at least one inertial measurement unit in it. These small sensors are able to measure acceleration in three directions as well as rotation rates around all three axes (pitch, roll, and yaw).
 
@@ -19,7 +20,30 @@ But what can we do with this data? In this lesson you'll learn how the integral 
 
 <img src="https://github.com/jackyhuynh/Construct_Trajectories_from_Sensor/blob/main/images/imu.jpg" width="450" height="300" margin-left:auto margin-right:auto>
 
+### 3. Two Dimensional Robot Motion and Trigonometry
 
+Required: knowledge about a vehicle's heading and displacement to calculate horizontal and vertical changes in its motion.
+
+<img src="https://github.com/jackyhuynh/Construct_Trajectories_from_Sensor/blob/main/images/vector-components-with-unit-vectors.svg.png" width="450" height="300" margin-left:auto margin-right:auto>
+
+### 4. Reconstructing Trajectories
+In the (optional) final project for this course you will use data like this.
+
+timestamp | displacement | yaw_rate | acceleration
+0.0	        0	            0.0	        0.0
+0.25	    0.0	            0.0	        19.6
+0.5	        1.225	        0.0	        19.6
+0.75	    3.675	        0.0	        19.6
+1.0	        7.35	        0.0	        19.6
+1.25	    12.25	        0.0	        0.0
+1.5	        17.15	        -2.829	    0.0
+1.75	    22.05	        -2.829	    0.0
+2.0	        26.95	        -2.829	    0.0
+2.25	    31.85	        -2.829	    0.0
+2.5	        36.75	        -2.829	    0.0
+to reconstruct plots of the vehicle's trajectory like this:
+
+<img src="https://github.com/jackyhuynh/Construct_Trajectories_from_Sensor/blob/main/images/vector-components-with-unit-vectors.svg.png" width="450" height="300" margin-left:auto margin-right:auto>
 
 ## Technology
 - Python 
