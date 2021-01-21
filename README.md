@@ -1,8 +1,7 @@
 # Construct Trajectories from Sensor
 
 ## Introduction
-The trajectories for Tracking Moving Condition
-Project are divide into 4 parts:
+The trajectories for Tracking Moving Condition Project are divide into 4 parts. Each part will contain small exercises that guided step by step to build a complete Tracking Trajectories and its components.
 
 ### 1. Odometers, Speedometers, and Derivatives
 
