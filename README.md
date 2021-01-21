@@ -22,7 +22,11 @@ We will be discussing the following sensors in this course:
 #### Average Speed
 
 To calculate average speed ( V_avg ), you can use the following equation:
+
+```  
     V_avg = Δx/Δt
+```
+
 where Δx means "change in position" and Δt means "change in time".
 
 #### Velocity
@@ -32,9 +36,12 @@ where Δx means "change in position" and Δt means "change in time".
 - Velocity is the derivative of position
 
 #### Differential Notation
- 
+
+``` 
     f(t)=lim of Δt→0 * { (f(t+Δt)−f(t))/Δt }
-​
+​```
+```
+
 - This "dot" notation is one of two common ways of representing the derivative.
 - Calculus was simultaneously invented by two people: Gottfried Wilhelm Liebniz and Isaac Newton.
 - And each came up with his own notation for representing derivatives. The Wikipedia article on [Notation for Differentiation](https://en.wikipedia.org/wiki/Notation_for_differentiation) does a good job of explaining them thoroughly but I will summarize here.	  
@@ -47,9 +54,17 @@ where Δx means "change in position" and Δt means "change in time".
 ##### 1. Liebniz Notation (prime)
 
 If some variable yy is a function of xx we can write:
+
+```
     y=f(x)
+```
+
 The derivative of yy with respect to xx is given by:
+
+```
     {dy}/{dx} = f'(x) 
+```
+
 and this could be spoken as "dee y dee x equals f prime of x"
 
 ##### 2. Newton's Notation (dot)
@@ -63,11 +78,14 @@ and this could be spoken as "dee y dee x equals f prime of x"
 
 - And he wanted to capture the relationships between these quantities compactly. So for Newton: differentiation with respect to time is indicated by placing a dot over the variable. So, for example:
 
+```
     v(t)= d/dt * x(t)=  x_dot(t)
-
+```
 - or for second derivatives:
 
+```
     a(t)= d/dt * v(t)=  d/dt * x_dot(t) = x_twoDot (t)
+```
 
 ​*A "Typical" Calculus Problem*
 If you’ve taken calculus before you probably have vague recollections of terms like “the chain rule” or “the product rule” or “the quotient rule”... these are all techniques for calculating the derivative of a function when you know the function’s algebraic form. Calculating the derivative of a function is also known as differentiation. And in a typical calculus class you would spend a LOT of time learning how to differentiate various functions…	
