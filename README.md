@@ -12,6 +12,7 @@ In this lesson you will learn about the derivative and what it can tell us about
 <img src="https://github.com/jackyhuynh/Construct_Trajectories_from_Sensor/blob/main/images/odometer2.jpg" width="450" height="300" margin-left:auto margin-right:auto>
 
 #### Navigation Sensors
+
 We will be discussing the following sensors in this course:
 
 - *Odometers* - An odometer measures how far a vehicle has traveled by counting wheel rotations. These are useful for measuring distance traveled (or displacement), but they are susceptible to bias (often caused by changing tire diameter). A "trip odometer" is an odometer that can be manually reset by a vehicle's operator.
@@ -19,26 +20,57 @@ We will be discussing the following sensors in this course:
 - *Inertial Measurement Unit* - An Inertial Measurement Unit (or *IMU*) is used to measure a vehicle's heading, rotation rate, and linear acceleration using magnetometers, rate gyros, and accelerometers. We will discuss these sensors more in the next lesson.
 
 #### Average Speed
+
 To calculate average speed ( V_avg ), you can use the following equation:
     V_avg = Δx/Δt
 where Δx means "change in position" and Δt means "change in time".
 
 #### Velocity
+
 - Velocity is the instantaneous rate of change of position
 - Velocity is the slope of the tangent line of position
 - Velocity is the derivative of position
 
 #### Differential Notation
- f(t)=lim of Δt→0 * { (f(t+Δt)−f(t))/Δt }
-​This "dot" notation is one of two common ways of representing the derivative.
+ 
+    f(t)=lim of Δt→0 * { (f(t+Δt)−f(t))/Δt }
+​
+- This "dot" notation is one of two common ways of representing the derivative.
+- Calculus was simultaneously invented by two people: Gottfried Wilhelm Liebniz and Isaac Newton.
+- And each came up with his own notation for representing derivatives. The Wikipedia article on [Notation for Differentiation](https://en.wikipedia.org/wiki/Notation_for_differentiation) does a good job of explaining them thoroughly but I will summarize here.	  
 
-Calculus was simultaneously invented by two people: Gottfried Wilhelm Liebniz and Isaac Newton.
+##### 0. What Newton and Liebniz share (d/dt)
 
-And each came up with his own notation for representing derivatives. The Wikipedia article on [Notation for Differentiation](https://en.wikipedia.org/wiki/Notation_for_differentiation) does a good job of explaining them thoroughly but I will summarize here.	  
+- In both notations, (d/dt) is an instruction to take the derivative. It means "Take the derivative *with respect* to tt of whatever function shows up to the right."
+- When you see something like this: *{df}/{dt}* You should think "the derivative of some function ff with respect to tt"
 
+##### 1. Liebniz Notation (prime)
+If some variable yy is a function of xx we can write:
+    y=f(x)
+The derivative of yy with respect to xx is given by:
+    {dy}/{dx} = f'(x) 
+and this could be spoken as "dee y dee x equals f prime of x"
+
+##### 2. Newton's Notation (dot)
+- Newton invented Calculus as a tool to help him understand motion. As a result, he was usually thinking of derivatives with respect to time (not some abstract xx variable).
+- Likewise, his functions weren't abstract f(x)f(x)'s and g(f(x))g(f(x))'s. The functions he was interested in actually meant something about the physical world! He wanted to describe:
+
+    position x(t)
+    velocity v(t)
+    and acceleration a(t)
+
+- And he wanted to capture the relationships between these quantities compactly. So for Newton: differentiation with respect to time is indicated by placing a dot over the variable. So, for example:
+
+    v(t)= d/dt * x(t)=  x_dot(t)
+
+- or for second derivatives:
+
+    a(t)= d/dt * v(t)=  d/dt * x_dot(t) = x_twoDot (t)
 
 ​	
+
 ---
+
 ### 2. Accelerometers, Rate Gyros, and Integrals
 
 Every self driving car has at least one inertial measurement unit in it. These small sensors are able to measure acceleration in three directions as well as rotation rates around all three axes (pitch, roll, and yaw).
