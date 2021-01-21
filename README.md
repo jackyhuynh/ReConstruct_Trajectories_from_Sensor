@@ -72,23 +72,19 @@ A step by step series of examples that tell you how to get a development envirom
 ## Running the tests
 
 Explain how to run the automated tests for this system:
-- There is no download IDE need, all you need is download all the src to your machine and run it.
+- There is no download IDE need, all you need is download all the src to your machine and run it. or just open the notebook in GitHub
 - Using Jupiter Notebook
-- Navigate to the file .ipynb
-- hit:
-
+- Navigate to the jupiter notebook (.ipynb) an dopen it. Contain will automatic display
+- else hit:
 ```
 Ctrl + Enter
 ```
 - The notebook will execute in Markdown form and include the visualization of the map.
 
-![alt](https://github.com/jackyhuynh/Route-Planner/blob/main/src/picture/map.PNG)
-
-- The program was working perfectly fine when I code it in the Udacity.com workspace. You may try it [here](https://classroom.udacity.com/nanodegrees/nd113/parts/ff875ac7-e7c7-40ec-8a79-8fce37d93bb2/modules/e3ba7f5e-56e5-4a40-9b21-0f7a130d3074/lessons/b1e11f40-418c-4292-af6f-56ac2603e868/concepts/498d1011-019d-4768-bd46-f476b68c2c4b) if you are member of Udacity. 
 
 ## Deployment
 
-Route PLanner class can be deploy and ready to work with any sensor, or moving robotic prediction. Idea for localization and/or GPS application. This is actually what we use for driving direction everyday. According to Sebastian, this technology have been around for 15 years, and still helping human each day.
+The small applications can be deploy and ready to work with any sensor, or moving robotic prediction. Idea for localization and/or GPS application. This is actually what we use for driving direction everyday. According to Sebastian, this technology have been around for 15 years, and still helping human each day.
 Please refer to my notebook for a better understanding of implementation.
 
 ## Built With
