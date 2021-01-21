@@ -11,6 +11,18 @@ In this lesson you will learn about the derivative and what it can tell us about
 
 <img src="https://github.com/jackyhuynh/Construct_Trajectories_from_Sensor/blob/main/images/odometer2.jpg" width="450" height="300" margin-left:auto margin-right:auto>
 
+#### Navigation Sensors
+We will be discussing the following sensors in this course:
+
+- *Odometers* - An odometer measures how far a vehicle has traveled by counting wheel rotations. These are useful for measuring distance traveled (or displacement), but they are susceptible to bias (often caused by changing tire diameter). A "trip odometer" is an odometer that can be manually reset by a vehicle's operator.
+
+- *Inertial Measurement Unit* - An Inertial Measurement Unit (or *IMU*) is used to measure a vehicle's heading, rotation rate, and linear acceleration using magnetometers, rate gyros, and accelerometers. We will discuss these sensors more in the next lesson.
+
+#### Average Speed
+To calculate average speed ( V_avg ), you can use the following equation:
+    V_avg = Δx/Δt
+where Δx means "change in position" and Δt means "change in time".
+
 ### 2. Accelerometers, Rate Gyros, and Integrals
 
 Every self driving car has at least one inertial measurement unit in it. These small sensors are able to measure acceleration in three directions as well as rotation rates around all three axes (pitch, roll, and yaw).
@@ -38,6 +50,7 @@ I will use data from sensor to reconstruct Trajectories like this.
 - Localization
 - Data Structures
 - Algorithms
+- Navigation Sensor
 
 ## Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
