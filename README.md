@@ -121,7 +121,7 @@ Fortunately, it takes some time for these errors to accumulate. So when they're 
 
 Take a look at one of Uber's early prototypes of a self driving car:
 
-![img]()
+![img](https://github.com/jackyhuynh/Construct_Trajectories_from_Sensor/blob/main/images/self-driving-uber-prototype-in-san-francisco.jpg)
 
 #### Rate Gyro
 
