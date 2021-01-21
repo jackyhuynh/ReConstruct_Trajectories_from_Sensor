@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The trajectories for Tracking Moving Condition Project are divide into 4 parts. Each part will contain small exercises that guided step by step to build a complete Tracking Trajectories and its components. The application will take measurement value from various sensors (Rate Gyro, Odometers, Inertial Measurement Unit) and applied calculus to re-construct the vehicle's trajectories.
+The application will take measurement value from various sensors (Rate Gyro, Odometers, Inertial Measurement Unit) and applied calculus to re-construct the vehicle's trajectories. The trajectories for Tracking Moving Condition Project are divide into 4 parts. Each part will contain small exercises that guided step by step to build a complete Tracking Trajectories and its components.
 
 Images and step by step explanation material can be retrieved at Udacity.com
 
