@@ -1,7 +1,7 @@
 # Construct Trajectories from Sensor
 
 ## Introduction
-The trajectories for Tracking Moving Condition Project are divide into 4 parts. Each part will contain small exercises that guided step by step to build a complete Tracking Trajectories and its components.
+The trajectories for Tracking Moving Condition Project are divide into 4 parts. Each part will contain small exercises that guided step by step to build a complete Tracking Trajectories and its components. The application will take mesurement vlue from various sensor (Rate Gyro, Odometers, Inertial Measurement Unit)
 
 ### 1. Odometers, Speedometers, and Derivatives
 
@@ -97,13 +97,12 @@ The slope of the line tangent to f(t) at t=t_0 is f_dot (t0)
 
 3. Acceleration
 
-####
+#### Rate Gyro
 
 A car's heading is usually represented by the Greek letter theta: \thetaθ
 
-The angular velocity is the rate of change (derivative) of the heading, so it's represented by "theta dot": \dot{\theta} 
-θ
-˙
+The angular velocity is the rate of change (derivative) of the heading, so it's represented by "theta dot": θ˙
+
 ---
 ### 3. Two Dimensional Robot Motion and Trigonometry
 
