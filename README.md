@@ -113,6 +113,12 @@ If f(t) gives the value of a function at any t, then f_dot (t0) gives the instan
 The slope of the line tangent to f(t) at t=t_0 is f_dot (t0)
 
 3. Acceleration
+It can be dangerous to rely on accelerometer data for localization since errors have a tendency to accumulate. This is a weakness of accelerometers.
+
+Fortunately, it takes some time for these errors to accumulate. So when they're used over short time intervals accelerometers can be really helpful.
+
+Take a look at one of Uber's early prototypes of a self driving car:
+
 
 #### Rate Gyro
 
@@ -145,6 +151,8 @@ I will use data from sensor to reconstruct Trajectories like this.
 - Data Structures
 - Algorithms
 - Navigation Sensor
+- Speed and Motion theory
+- Calculus
 
 ## Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
