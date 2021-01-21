@@ -123,6 +123,12 @@ Take a look at one of Uber's early prototypes of a self driving car:
 
 ![img](https://github.com/jackyhuynh/Construct_Trajectories_from_Sensor/blob/main/images/self-driving-uber-prototype-in-san-francisco.jpg)
 
+Look at all those sensors perched on the hood! And you can't even see the IMUs and odometers and GPS sensors inside the vehicle!
+
+Each of these sensors has strengths and weaknesses and each contributes to an improved understanding of the vehicle and it's surroundings. This is where *Sensor fusion* step in.
+
+Sensor fusion is how you use software to stitch together all these disparate data sources into one coherent picture about the vehicle, its motion, and the world around it.
+
 #### Rate Gyro
 
 A car's heading is usually represented by the Greek letter theta: \thetaθ
