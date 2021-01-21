@@ -39,7 +39,6 @@ where Δx means "change in position" and Δt means "change in time".
 
 ``` 
     f(t)=lim of Δt→0 * { (f(t+Δt)−f(t))/Δt }
-​```
 ```
 
 - This "dot" notation is one of two common ways of representing the derivative.
