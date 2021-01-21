@@ -45,6 +45,7 @@ where Δx means "change in position" and Δt means "change in time".
 - When you see something like this: *{df}/{dt}* You should think "the derivative of some function ff with respect to tt"
 
 ##### 1. Liebniz Notation (prime)
+
 If some variable yy is a function of xx we can write:
     y=f(x)
 The derivative of yy with respect to xx is given by:
@@ -52,6 +53,7 @@ The derivative of yy with respect to xx is given by:
 and this could be spoken as "dee y dee x equals f prime of x"
 
 ##### 2. Newton's Notation (dot)
+
 - Newton invented Calculus as a tool to help him understand motion. As a result, he was usually thinking of derivatives with respect to time (not some abstract xx variable).
 - Likewise, his functions weren't abstract f(x)f(x)'s and g(f(x))g(f(x))'s. The functions he was interested in actually meant something about the physical world! He wanted to describe:
 
@@ -67,7 +69,8 @@ and this could be spoken as "dee y dee x equals f prime of x"
 
     a(t)= d/dt * v(t)=  d/dt * x_dot(t) = x_twoDot (t)
 
-​	
+​*A "Typical" Calculus Problem*
+If you’ve taken calculus before you probably have vague recollections of terms like “the chain rule” or “the product rule” or “the quotient rule”... these are all techniques for calculating the derivative of a function when you know the function’s algebraic form. Calculating the derivative of a function is also known as differentiation. And in a typical calculus class you would spend a LOT of time learning how to differentiate various functions…	
 
 ---
 
@@ -79,6 +82,29 @@ But what can we do with this data? In this lesson you'll learn how the integral 
 
 <img src="https://github.com/jackyhuynh/Construct_Trajectories_from_Sensor/blob/main/images/imu.jpg" width="450" height="300" margin-left:auto margin-right:auto>
 
+#### Differentiation Recap
+
+In the last lesson, you learned about the derivative. This section is just here to remind you of what you learned.
+
+Understanding the Derivative
+You saw a few ways to understand the derivative:
+
+1. The "Rate of Change" Interpretation
+If f(t) gives the value of a function at any t, then f_dot (t0) gives the instantaneous rate of change of f(t)f(t) at the value t=t_0.
+
+2. The Graphical Interpretation
+The slope of the line tangent to f(t) at t=t_0 is f_dot (t0)
+
+3. Acceleration
+
+####
+
+A car's heading is usually represented by the Greek letter theta: \thetaθ
+
+The angular velocity is the rate of change (derivative) of the heading, so it's represented by "theta dot": \dot{\theta} 
+θ
+˙
+---
 ### 3. Two Dimensional Robot Motion and Trigonometry
 
 Required: knowledge about a vehicle's heading and displacement to calculate horizontal and vertical changes in its motion.
