@@ -127,10 +127,14 @@ Required: knowledge about a vehicle's heading and displacement to calculate hori
 
 <img src="https://github.com/jackyhuynh/Construct_Trajectories_from_Sensor/blob/main/images/vector-components-with-unit-vectors.svg.png" width="450" height="300" margin-left:auto margin-right:auto>
 
+---
+
 ### 4. Reconstructing Trajectories
 I will use data from sensor to reconstruct Trajectories like this.
 
 <img src="https://github.com/jackyhuynh/Construct_Trajectories_from_Sensor/blob/main/images/example-trajectory.png" width="450" height="300" margin-left:auto margin-right:auto>
+
+---
 
 ## Technology
 - Python 
