@@ -81,7 +81,6 @@ Ctrl + Enter
 ```
 - The notebook will execute in Markdown form and include the visualization of the map.
 
-
 ## Deployment
 
 The small applications can be deploy and ready to work with any sensor, or moving robotic prediction. Idea for localization and/or GPS application. This is actually what we use for driving direction everyday. According to Sebastian, this technology have been around for 15 years, and still helping human each day.
@@ -90,6 +89,10 @@ Please refer to my notebook for a better understanding of implementation.
 ## Built With
 
 * [Jupyter Notebook](https://jupyter.org/try) 
+
+---
+# Odometers, Speedometers, and Derivatives
+
 
 ## Contributing
 
