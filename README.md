@@ -26,21 +26,7 @@ Required: knowledge about a vehicle's heading and displacement to calculate hori
 <img src="https://github.com/jackyhuynh/Construct_Trajectories_from_Sensor/blob/main/images/vector-components-with-unit-vectors.svg.png" width="450" height="300" margin-left:auto margin-right:auto>
 
 ### 4. Reconstructing Trajectories
-In the (optional) final project for this course you will use data like this.
-
-timestamp | displacement | yaw_rate | acceleration
-0.0	        0	            0.0	        0.0
-0.25	    0.0	            0.0	        19.6
-0.5	        1.225	        0.0	        19.6
-0.75	    3.675	        0.0	        19.6
-1.0	        7.35	        0.0	        19.6
-1.25	    12.25	        0.0	        0.0
-1.5	        17.15	        -2.829	    0.0
-1.75	    22.05	        -2.829	    0.0
-2.0	        26.95	        -2.829	    0.0
-2.25	    31.85	        -2.829	    0.0
-2.5	        36.75	        -2.829	    0.0
-to reconstruct plots of the vehicle's trajectory like this:
+I will use data from sensor to reconstruct Trajectories like this.
 
 <img src="https://github.com/jackyhuynh/Construct_Trajectories_from_Sensor/blob/main/images/example-trajectory.png" width="450" height="300" margin-left:auto margin-right:auto>
 
