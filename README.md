@@ -43,7 +43,7 @@ timestamp | displacement | yaw_rate | acceleration
 2.5	        36.75	        -2.829	    0.0
 to reconstruct plots of the vehicle's trajectory like this:
 
-<img src="https://github.com/jackyhuynh/Construct_Trajectories_from_Sensor/blob/main/images/vector-components-with-unit-vectors.svg.png" width="450" height="300" margin-left:auto margin-right:auto>
+<img src="https://github.com/jackyhuynh/Construct_Trajectories_from_Sensor/blob/main/images/example-trajectory.png" width="450" height="300" margin-left:auto margin-right:auto>
 
 ## Technology
 - Python 
