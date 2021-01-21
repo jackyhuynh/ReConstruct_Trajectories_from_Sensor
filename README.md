@@ -2,6 +2,10 @@
 
 ## Introduction
 The trajectories for Tracking Moving Condition
+Project are divide into 4 parts:
+1. Odometers, Speedometers, and Derivatives
+
+<img src="https://github.com/jackyhuynh/Construct_Trajectories_from_Sensor/blob/main/images/odometer2.jpg" width="300" height="450" margin-left:auto margin-right:auto>
 
 ## Technology
 - Python 
