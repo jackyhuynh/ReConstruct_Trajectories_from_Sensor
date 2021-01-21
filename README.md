@@ -3,9 +3,23 @@
 ## Introduction
 The trajectories for Tracking Moving Condition
 Project are divide into 4 parts:
-1. Odometers, Speedometers, and Derivatives
+
+### Odometers, Speedometers, and Derivatives
+Understanding motion means understanding quantities like position, velocity, and acceleration and how they relate to each other. And it turns out that calculus gives us two incredible tools for understanding these relationships: derivatives and integrals.
+
+In this lesson you will learn about the derivative and what it can tell us about motion. By the end of this lesson you will be able to take a car's odometery data (distance traveled) and use it to infer new knowledge about velocity and acceleration.
 
 <img src="https://github.com/jackyhuynh/Construct_Trajectories_from_Sensor/blob/main/images/odometer2.jpg" width="450" height="300" margin-left:auto margin-right:auto>
+
+### Accelerometers, Rate Gyros, and Integrals
+
+Every self driving car has at least one inertial measurement unit in it. These small sensors are able to measure acceleration in three directions as well as rotation rates around all three axes (pitch, roll, and yaw).
+
+But what can we do with this data? In this lesson you'll learn how the integral can be used to accumulate changes in data (and motion).
+
+<img src="https://github.com/jackyhuynh/Construct_Trajectories_from_Sensor/blob/main/images/imu.jpg" width="450" height="300" margin-left:auto margin-right:auto>
+
+
 
 ## Technology
 - Python 
