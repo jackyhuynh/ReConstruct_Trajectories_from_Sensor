@@ -2,7 +2,7 @@
 
 ## Introduction
 The trajectories for Tracking Moving Condition Project are divide into 4 parts. Each part will contain small exercises that guided step by step to build a complete Tracking Trajectories and its components. The application will take measurement value from various sensors (Rate Gyro, Odometers, Inertial Measurement Unit) and applied calculus to re-construct the vehicle's trajectories.
-
+Full lesson and step by step explanation can be retrieved at Udacity.com
 ---
 
 ### 1. Odometers, Speedometers, and Derivatives
@@ -136,11 +136,21 @@ A car's heading is usually represented by the Greek letter theta: \thetaθ
 The angular velocity is the rate of change (derivative) of the heading, so it's represented by "theta dot": θ˙
 
 ---
+
 ### 3. Two Dimensional Robot Motion and Trigonometry
 
-Required: knowledge about a vehicle's heading and displacement to calculate horizontal and vertical changes in its motion.
+Required: knowledge about a vehicle's heading and displacement to calculate horizontal and vertical changes in its motion. Applied Trigonometry to solve the movement problems. 
 
 <img src="https://github.com/jackyhuynh/Construct_Trajectories_from_Sensor/blob/main/images/vector-components-with-unit-vectors.svg.png" width="450" height="300" margin-left:auto margin-right:auto>
+
+#### Plotting Robot Motion:
+
+<img src="https://github.com/jackyhuynh/ReConstruct_Trajectories_from_Sensor/blob/main/images/screen-shot-2017-12-15-at-11.14.19-am.png" width="450" height="300" margin-left:auto margin-right:auto>
+
+#### Moving at an angle
+
+<img src="https://github.com/jackyhuynh/ReConstruct_Trajectories_from_Sensor/blob/main/images/screen-shot-2017-12-11-at-5.53.05-pm.png" width="450" height="300" margin-left:auto margin-right:auto>
+
 
 ---
 
@@ -162,6 +172,7 @@ I will use data from sensor to reconstruct Trajectories like this.
 - Navigation Sensor
 - Speed and Motion theory
 - Calculus
+- Trigonometry
 
 ## Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
